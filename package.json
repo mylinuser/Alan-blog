@@ -7,7 +7,8 @@
     "start": "vitepress dev docs --host --port 8899",
     "dev": "npm run start",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
