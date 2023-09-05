@@ -1,16 +1,17 @@
-import zhCNConfig from './zhCNConfig'
+import zhCNConfig from "./zhCNConfig";
 
 module.exports = {
+  base: "/daily-blog/",
   appearance: true,
   title: "Daliy Blog",
   description: "每日博客",
   lang: "zh-CN",
   lastUpdated: true,
-  // head: [["link", { rel: "icon", href: "../public/hz-icon.png" }]],
+  head: [["link", { rel: "icon", href: "../public//github-bk2.png.png" }]],
   markdown: {
     theme: {
-      light: 'vitesse-light',
-      dark: 'vitesse-dark'
+      light: "vitesse-light",
+      dark: "vitesse-dark",
     },
     lineNumbers: true,
   },
@@ -36,7 +37,7 @@ module.exports = {
     //   text: 'Edit this page on GitHub'
     // },
     search: {
-      provider: 'local'
+      provider: "local",
     },
     socialLinks: [{ icon: "github", link: "https://github.com/mylinuser" }],
   },

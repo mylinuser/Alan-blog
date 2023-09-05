@@ -14,7 +14,7 @@ hero:
       link: /blog/index
     - theme: alt
       text: 项目地址
-      link: https://github.com/mylinuser
+      link: https://github.com/mylinuser/daily-blog
   image:
     src: /github-bk2.png
     alt: HZ-UI
