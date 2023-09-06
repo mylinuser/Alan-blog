@@ -10,7 +10,7 @@ export default {
     { text: "学习", link: "/study/markDown" },
     { text: "实践", link: "/practice/" },
     { text: "面试", link: "/interview/" },
-    { text: "部署", link: "/deploy/" },
+    { text: "工程化", link: "/deploy/jenkins1" },
     { text: "算法", link: "/algorithm/arr2-to-arr1" },
   ],
   sidebar: {
@@ -40,25 +40,28 @@ export default {
     ],
     "/deploy/": [
       {
-        text: "部署",
+        text: "工程化",
         collapsed: true,
         items: [
-          { text: "开始", link: "/deploy/deploy" },
           { text: "jenkins安装1", link: "/deploy/jenkins1" },
           { text: "jenkins安装2", link: "/deploy/jenkins2" },
+          { text: "配置jenkins", link: "/deploy/jenkins3" },
+          { text: "nginx命令", link: "/deploy/nginx" },
+          { text: "rancher", link: "/deploy/rancher" },
+          { text: "docker", link: "/deploy/docker" },
         ],
       },
     ],
     "/algorithm/": [
       {
-        text: "代码实现",
-        items: [{ text: "classnames实现", link: "/algorithm/classnames" }],
-      },
-      {
         text: "算法LeetCode",
         items: [
           { text: "二维数组旋转变成一维数组", link: "/algorithm/arr2-to-arr1" },
         ],
+      },
+      {
+        text: "代码实现",
+        items: [{ text: "classnames实现", link: "/algorithm/classnames" }],
       },
     ],
   },
