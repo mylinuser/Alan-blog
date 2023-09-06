@@ -10,8 +10,8 @@ hero:
   tagline: Vuepress搭建
   actions:
     - theme: brand
-      text: 个人博客
-      link: /blog/index
+      text: 开始学习
+      link: /study/markdown
     - theme: alt
       text: 项目地址
       link: https://github.com/mylinuser/daily-blog
