@@ -4,13 +4,13 @@
 set -e
 
 # 删除文件需要根据实际打包的目录进行删除
-rm -rf docs/.vitepress/dist/
+rm -rf .vitepress/dist/
 
 # 生成静态文件
 pnpm build
 
 # 进入生成的文件夹
-cd docs/.vitepress/dist
+cd .vitepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME

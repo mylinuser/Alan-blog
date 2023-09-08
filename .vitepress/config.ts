@@ -1,7 +1,7 @@
 import zhCNConfig from "./zhCNConfig";
 
 module.exports = {
-  base: "/daily-blog/",
+  base: "./",
   appearance: true,
   title: "Daliy Blog",
   description: "每日博客",
