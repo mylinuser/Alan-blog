@@ -2,12 +2,11 @@
   "name": "daliy-blog",
   "version": "1.0.0",
   "description": "Alan blog",
-  "main": "index.js",
   "scripts": {
     "start": "vitepress dev docs --host --port 8899",
-    "dev": "npm run start",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
     "deploy": "bash deploy.sh"
   },
   "keywords": [],
