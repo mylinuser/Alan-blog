@@ -20,6 +20,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io 修改仓库地址
-# git push -f https://github.com/mylinuser/daily-blog test
+git push -f https://github.com/mylinuser/daily-blog master:gh-pages
 
 cd -
