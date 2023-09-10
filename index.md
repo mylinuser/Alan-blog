@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Daliy Blog
+title: Daliy Blog1111111
 titleTemplate: 每日记录博客
 
 hero:
-  name: Daliy Blog
+  name: Daliy Blog1231231
   text: 每日记录博客
   tagline: Vuepress搭建
   actions:
