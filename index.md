@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /study/markdown
+      link: /study/markDown
     - theme: alt
       text: 项目地址
       link: https://github.com/mylinuser/daily-blog
