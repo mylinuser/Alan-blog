@@ -54,7 +54,7 @@ export const bus = new EventBus();
 <script>
 import { bus } from '@/units/eventBus';
 
-const showDialog = ref();
+const showDialog = ref(false);
 
 onMounted(() => {
     bus.on('showDialog', (visible: boolean) => {
