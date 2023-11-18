@@ -68,7 +68,8 @@ export default {
         items: [
           { text: 'classnames实现', link: '/interview/classnames' },
           { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
-          { text: 'eventBus', link: '/interview/eventBus' }
+          { text: 'eventBus', link: '/interview/eventBus' },
+          { text: '自定义useVModel', link: '/interview/useVModel' }
         ]
       }
     ],
