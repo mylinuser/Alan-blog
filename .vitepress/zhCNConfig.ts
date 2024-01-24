@@ -69,7 +69,8 @@ export default {
           { text: 'classnames实现', link: '/interview/classnames' },
           { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
           { text: 'eventBus', link: '/interview/eventBus' },
-          { text: '自定义useVModel', link: '/interview/useVModel' }
+          { text: '自定义useVModel', link: '/interview/useVModel' },
+          { text: 'async/await', link: '/interview/async' }
         ]
       }
     ],
@@ -143,6 +144,10 @@ export default {
           {
             text: '二维数组旋转变成一维数组',
             link: '/algorithm/arr2-to-arr1'
+          },
+          {
+            text: '字符串数字计算',
+            link: '/algorithm/computedString'
           }
         ]
       }
