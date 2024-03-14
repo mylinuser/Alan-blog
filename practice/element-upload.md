@@ -32,8 +32,6 @@
 
 解决：element ui做自定义上传时，返回的url地址要放到列表里边，如果直接push就会报错
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f17104d3-50b5-4782-a025-a226fbeafed9/Untitled.png)
 
 所以正确写法应该是：传一个对象过去，name是你要展示的名字，就不会报错了。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/280583fe-4ea0-475c-a32e-26c4ad6df3b5/Untitled.png)

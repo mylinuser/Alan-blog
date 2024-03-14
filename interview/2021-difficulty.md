@@ -102,11 +102,11 @@ attempt: 1
 
 第二种引入
 
-![Untitled](/public/difficulty2.png)
+![vLazy](/public/difficulty2.png)
 
 ## 自己定义插件
 
-![Untitled](/public/difficulty1.png)
+![myPlugin](/public/difficulty1.png)
 
 然后再main.js引入，用Vue.use(myPlugins)注册
 

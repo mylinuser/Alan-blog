@@ -62,7 +62,7 @@ timeout: 3000
 
 defineAsyncComponent
 
-![Untitled](/public/interview-difficulty.png)
+![difficulty](/public/interview-difficulty.png)
 
 18. vue首次渲染过程？从头到尾，什么路由怎么执行之类的**√**
 

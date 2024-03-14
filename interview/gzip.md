@@ -9,7 +9,7 @@ HTTP协议上的gzip编码是一种用来改进web应用程序性能的技术，
 
 ### **nginx启用gzip**
 
-![Untitled](/public/gzip1.png)
+![gzip1](/public/gzip1.png)
 
 ### **[webpack](https://so.csdn.net/so/search?q=webpack&spm=1001.2101.3001.7020)构建gz文件**
 
@@ -17,7 +17,7 @@ HTTP协议上的gzip编码是一种用来改进web应用程序性能的技术，
 
 `config/index.js`下有如下语句：
 
-![Untitled](/public/gzip2.png)
+![gzip2](/public/gzip2.png)
 
 1、productionGzip默认为false，将它设置为true
 
@@ -25,15 +25,15 @@ HTTP协议上的gzip编码是一种用来改进web应用程序性能的技术，
 
 3、npm install --save-dev compression-webpack-plugin安装成功后，执行npm run build却出现报错
 
-![Untitled](/public/gzip3.png)
+![gzip3](/public/gzip3.png)
 
 4、根据提示，修改`webpack.prod.conf.js`中的配置（asset 改为 filename）
 
-![Untitled](/public/gzip4.png)
+![gzip4](/public/gzip4.png)
 
 5、再次执行`npm run build`，仍然有出现报错
 
-![Untitled](/public/gzip5.png)
+![gzip5](/public/gzip5.png)
 
 查资料看，可能和插件的版本有关；
 
@@ -41,7 +41,7 @@ HTTP协议上的gzip编码是一种用来改进web应用程序性能的技术，
 
 安装时，控制台有警告提示：compression-webpack-plugin 和 webpack 的版本不匹配
 
-![Untitled](/public/gzip6.png)
+![gzip6](/public/gzip6.png)
 
 6、试着 降低`compression-webpack-plugin`版本到`1.1.12`，打包成功
 
@@ -54,10 +54,10 @@ npm install --save-dev compression-webpack-plugin@1.1.12
 
 可以看到：打包出的资源文件，压缩比还是不错滴，完美~
 
-![Untitled](/public/gzip7.png)
+![gzip7](/public/gzip7.png)
 
 ## **资源发布到服务器**
 
 访问时，通过抓包可看到 请求 和 回复 里都带有gzip标记
 
-![Untitled](/public/gzip8.png)
+![gzip8](/public/gzip8.png)

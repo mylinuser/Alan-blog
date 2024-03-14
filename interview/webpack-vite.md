@@ -293,13 +293,13 @@ module.exports = {
 
 **项目启动时，也可以看到启动耗时**
 
-![Untitled](/public/webpack-vite1.png)
+![vite1](/public/webpack-vite1.png)
 
 ****体积分析****
 
 webpack打包体积分析这里没有用额外的插件，就使用了webpack自带的vue=cli-service build。
 
-![Untitled](/public/webpack-vite2.png)
+![vite2](/public/webpack-vite2.png)
 
 ****package.json配置****
 
@@ -314,7 +314,7 @@ webpack打包体积分析这里没有用额外的插件，就使用了webpack自
 
 执行`npm run report`，生成的体积报告在`/dist/report.html`中
 
-![Untitled](/public/webpack-vite3.png)
+![vite3](/public/webpack-vite3.png)
 
 由此可见，第三方库占比最大，因此采用`CDN加载`。
 
@@ -437,18 +437,18 @@ Vue.use(ElementUI);
 
 采用了cdn加载后 打包体积也变小了
 
-![Untitled](/public/webpack-vite4.png)
+![vite4](/public/webpack-vite4.png)
 
 由图可知，使用cdn加载的第三方库没有进行打包
 
-![Untitled](/public/webpack-vite5.png)
+![vite5](/public/webpack-vite5.png)
 
 ### ****可能遇到的问题****
 
 错误是cdn引用的element.ui链接问题：需要引入`lib/index.js`文件(列如[https://cdn.jsdelivr.net/npm/element-ui@2.15.3/lib/index.js](https://links.jianshu.com/go?to=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Felement-ui%402.15.3%2Flib%2Findex.js))
 
-![Untitled](/public/webpack-vite6.png)
+![vite6](/public/webpack-vite6.png)
 
 错误是externals外部扩展的value值不对，应为`'element-ui': 'ELEMENT'`
 
-![Untitled](/public/webpack-vite7.png)
+![vite7](/public/webpack-vite7.png)

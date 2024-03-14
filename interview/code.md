@@ -16,7 +16,7 @@ https://mp.weixin.qq.com/s/bUy220-ect00N4gnO0697A
 
 HttpServletResponse中的常量代表关联不同标准消息的状态码。在servlet程序中，你会更多地用到这些常量的标识来使用状态码。例如：你一般会使用response.setStatus(response.SC_NO_CONTENT)而不是 response.setStatus(204)，因为后者不易理解而且容易导致错误。但是，你应当注意到服务器允许对消息轻微的改变，而客户端只注意状态码的数字值。所以服务器可能只返回 HTTP/1.1 200 而不是 HTTP/1.1 200 OK。
 
-![Untitled](/public/code1.jpg)
+![404](/public/code1.jpg)
 
 **100 (Continue/继续)**
 
@@ -134,7 +134,7 @@ response.setStatus(response.SC_NO_CONTENT);
 
 默认情况下，IE5忽略服务端生成的错误提示页面。
 
-![Untitled](/public/code2.jpg)
+![code2](/public/code2.jpg)
 
 **405 (Method Not Allowed/方法未允许)**
 
