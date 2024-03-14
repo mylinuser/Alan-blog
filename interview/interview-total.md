@@ -374,8 +374,6 @@ https://blog.csdn.net/qq_45867474/article/details/120454884
 
 **4. Webpack的模块热替换及实现**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b761d7a-a5c3-40f4-be25-4703c5613020/Untitled.png)
-
 **5. Webpack的优化问题**
 
 **6. SPA及其优缺点**

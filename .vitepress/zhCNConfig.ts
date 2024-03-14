@@ -1,7 +1,7 @@
 export default {
   footer: {
     message: 'Released under the MIT License.',
-    copyright: 'Copyright © 2023-present Evan You'
+    copyright: 'Copyright © 2024-present Evan You'
   },
   docFooter: { prev: '上一篇', next: '下一篇' },
   lastUpdatedText: '最近更新时间',
@@ -70,7 +70,10 @@ export default {
           { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
           { text: 'eventBus', link: '/interview/eventBus' },
           { text: '自定义useVModel', link: '/interview/useVModel' },
-          { text: 'async/await', link: '/interview/async' }
+          { text: 'async/await', link: '/interview/async' },
+          { text: '函数柯里化', link: '/interview/curry' },
+          { text: '树结构转换', link: '/interview/toTree' },
+          { text: '寻找特定树结构节点', link: '/interview/findTree' }
         ]
       }
     ],
@@ -132,7 +135,10 @@ export default {
           { text: '配置jenkins', link: '/deploy/jenkins3' },
           { text: 'nginx', link: '/deploy/nginx' },
           { text: 'rancher', link: '/deploy/rancher' },
-          { text: 'docker', link: '/deploy/docker' }
+          { text: 'docker', link: '/deploy/docker' },
+          { text: 'jenkins', link: '/deploy/jenkins' },
+          { text: 'nodes', link: '/deploy/nodes' },
+          { text: '自动化部署', link: '/deploy/autoDeploy' }
         ]
       }
     ],
