@@ -9,9 +9,9 @@ export default {
     { text: '首页', link: '/' },
     { text: '学习', link: '/study/markDown' },
     { text: '实践', link: '/practice/element-upload' },
-    { text: '面试', link: '/interview/2021-difficulty' },
-    { text: '工程化', link: '/deploy/jenkins1' },
-    { text: '算法', link: '/algorithm/arr2-to-arr1' }
+    // { text: '面试', link: '/interview/2021-difficulty' },
+    { text: '工程化', link: '/deploy/jenkins1' }
+    // { text: '算法', link: '/algorithm/arr2-to-arr1' }
   ],
   sidebar: {
     '/study/': [

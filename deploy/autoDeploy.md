@@ -43,7 +43,7 @@ fi
 - 设置监听端口为8899(如果没法访问，看看是不是防火墙没关，或者安全组没开放端口)
 - server_name为转发地址，这里只是本地静态资源转发，所以填localhost，如果是转发其他机器上，就填那个机器的ip或者域名
 - root设置默认请求地址，主页为index.html
-- 把访问包含/daily-blog/路径的请求，全部转发到访问服务器/docs/test/的静态地址上
+- 把访问包含/Alan-blog/路径的请求，全部转发到访问服务器/docs/test/的静态地址上
 ```
 server {
     listen 8899;
@@ -51,7 +51,7 @@ server {
     root /docs/test;
     index index.html index.htm default.html default.htm;
 
-    location ^~ /daily-blog/ {
+    location ^~ /Alan-blog/ {
         alias /docs/test/;
     }
 }
