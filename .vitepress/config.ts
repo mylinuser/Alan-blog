@@ -1,11 +1,11 @@
 import zhCNConfig from './zhCNConfig';
 
 module.exports = {
-  base: '/daily-blog/',
+  base: '/Alan-blog/',
   outDir: 'dist',
   appearance: true,
-  title: 'Daliy Blog',
-  description: '每日博客',
+  title: 'Alan-blog',
+  description: 'Alan 的学习博客',
   lang: 'zh-CN',
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: '../public//github-bk2.png.png' }]],
@@ -32,7 +32,7 @@ module.exports = {
   // },
   themeConfig: {
     ...zhCNConfig,
-    siteTitle: 'Daliy Blog',
+    siteTitle: 'Alan-blog',
     // editLink: {
     //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
     //   text: 'Edit this page on GitHub'
