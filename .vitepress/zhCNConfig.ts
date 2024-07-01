@@ -16,6 +16,14 @@ export default {
   sidebar: {
     '/study/': [
       {
+        text: '2024',
+        collapsed: true,
+        items: [
+          { text: 'nestjs实践', link: '/study/nestjs/practise' },
+          { text: '性能指标', link: '/study/performance' }
+        ]
+      },
+      {
         text: '2023',
         collapsed: true
       },

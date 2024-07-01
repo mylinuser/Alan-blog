@@ -52,3 +52,10 @@ printf("Hello, Markdown.");
 [1]:https:?/github.com/younghz/Markdown 'Markdown'
 [2]:https:?/github.com/younghz/Markdown 'Markdown'
 !https:?/github.com/younghz/Markdown.png
+
+## 表格
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
