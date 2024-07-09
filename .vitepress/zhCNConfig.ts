@@ -7,45 +7,32 @@ export default {
   lastUpdatedText: '最近更新时间',
   nav: [
     { text: '首页', link: '/' },
-    { text: '学习', link: '/study/markDown' },
+    { text: '学习', link: '/study/nestjs/practise' },
     { text: '实践', link: '/practice/element-upload' },
-    // { text: '面试', link: '/interview/2021-difficulty' },
-    { text: '工程化', link: '/deploy/jenkins1' }
-    // { text: '算法', link: '/algorithm/arr2-to-arr1' }
+    { text: '工程化', link: '/deploy/jenkins1' },
+    { text: '代码实现', link: '/algorithm/arr2-to-arr1' }
   ],
   sidebar: {
     '/study/': [
       {
         text: '2024',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'nestjs实践', link: '/study/nestjs/practise' },
-          { text: '性能指标', link: '/study/performance' }
+          { text: '性能指标', link: '/study/performance' },
+          // { text: '面试问题记录', link: '/study/interview2024' },
+          { text: 'process.nextTick', link: '/study/process.nextTick' },
+          { text: '微前端', link: '/study/MicroFrontends' },
+          { text: 'babel', link: '/study/babel' },
+          { text: '网络', link: '/study/network' },
+          { text: '图片相关', link: '/study/picture' }
         ]
       },
       {
         text: '2023',
-        collapsed: true
-      },
-      {
-        text: '2021-2022',
         collapsed: true,
         items: [
-          { text: 'markDown练手', link: '/study/markDown' },
-          { text: 'grid布局', link: '/study/grid' },
-          { text: 'Git学习', link: '/study/git' },
-          { text: 'websocket', link: '/study/websocket' },
-          { text: 'pinia', link: '/study/pinia' },
-          { text: 'vue3', link: '/study/vue3' },
-          { text: 'mysql修改密码', link: '/study/mysql-change-password' }
-        ]
-      }
-    ],
-    '/interview/': [
-      {
-        text: '2021-2022',
-        collapsed: true,
-        items: [
+          { text: '虚拟列表', link: '/study/virtualTree' },
           { text: '遇到的难题', link: '/interview/2021-difficulty' },
           { text: '一些题目', link: '/interview/some-topic' },
           { text: 'webpack和vite', link: '/interview/webpack-vite' },
@@ -54,10 +41,7 @@ export default {
           { text: '版本号区别', link: '/interview/versions' },
           { text: 'Vue3', link: '/interview/vue3' },
           { text: 'webpack', link: '/interview/webpack' },
-          {
-            text: '性能优化',
-            link: '/interview/performance-optimization'
-          },
+          { text: '性能优化', link: '/interview/optimization' },
           { text: '强缓存、协商缓存', link: '/interview/cache' },
           { text: 'webpack GZip压缩', link: '/interview/gzip' },
           { text: '为什么使用Taro', link: '/interview/taro' },
@@ -71,17 +55,16 @@ export default {
         ]
       },
       {
-        text: '代码实现',
+        text: '2021-2022',
         collapsed: true,
         items: [
-          { text: 'classnames实现', link: '/interview/classnames' },
-          { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
-          { text: 'eventBus', link: '/interview/eventBus' },
-          { text: '自定义useVModel', link: '/interview/useVModel' },
-          { text: 'async/await', link: '/interview/async' },
-          { text: '函数柯里化', link: '/interview/curry' },
-          { text: '树结构转换', link: '/interview/toTree' },
-          { text: '寻找特定树结构节点', link: '/interview/findTree' }
+          { text: 'markDown练手', link: '/study/markDown' },
+          { text: 'grid布局', link: '/study/grid' },
+          { text: 'Git学习', link: '/study/git' },
+          { text: 'websocket', link: '/study/websocket' },
+          { text: 'pinia', link: '/study/pinia' },
+          { text: 'vue3', link: '/study/vue3' },
+          { text: 'mysql修改密码', link: '/study/mysql-change-password' }
         ]
       }
     ],
@@ -153,7 +136,7 @@ export default {
     '/algorithm/': [
       {
         text: '算法LeetCode',
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: '二维数组旋转变成一维数组',
@@ -163,6 +146,20 @@ export default {
             text: '字符串数字计算',
             link: '/algorithm/computedString'
           }
+        ]
+      },
+      {
+        text: '常规封装代码实现',
+        collapsed: false,
+        items: [
+          { text: 'classnames实现', link: '/interview/classnames' },
+          { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
+          { text: 'eventBus', link: '/interview/eventBus' },
+          { text: '自定义useVModel', link: '/interview/useVModel' },
+          { text: 'async/await', link: '/interview/async' },
+          { text: '函数柯里化', link: '/interview/curry' },
+          { text: '树结构转换', link: '/interview/toTree' },
+          { text: '寻找特定树结构节点', link: '/interview/findTree' }
         ]
       }
     ]
