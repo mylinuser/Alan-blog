@@ -33,25 +33,25 @@ export default {
         collapsed: true,
         items: [
           { text: '虚拟列表', link: '/study/virtualTree' },
-          { text: '遇到的难题', link: '/interview/2021-difficulty' },
-          { text: '一些题目', link: '/interview/some-topic' },
-          { text: 'webpack和vite', link: '/interview/webpack-vite' },
-          { text: 'Fetch', link: '/interview/fetch' },
-          { text: 'Axios', link: '/interview/axios' },
-          { text: '版本号区别', link: '/interview/versions' },
-          { text: 'Vue3', link: '/interview/vue3' },
-          { text: 'webpack', link: '/interview/webpack' },
-          { text: '性能优化', link: '/interview/optimization' },
-          { text: '强缓存、协商缓存', link: '/interview/cache' },
-          { text: 'webpack GZip压缩', link: '/interview/gzip' },
-          { text: '为什么使用Taro', link: '/interview/taro' },
-          { text: 'uniapp和Taro的区别', link: '/interview/uniapp-taro' },
-          { text: 'Get和Post请求区别', link: '/interview/get-post' },
-          { text: 'Tcp和Udp的区别', link: '/interview/tcp-udp' },
-          { text: 'websocket和http', link: '/interview/webpack-http' },
-          { text: '面试难题', link: '/interview/interview-difficulty' },
-          { text: '面试题总结', link: '/interview/interview-total' },
-          { text: '状态码', link: '/interview/code' }
+          { text: '遇到的难题', link: '/study/2021-difficulty' },
+          { text: '一些题目', link: '/study/some-topic' },
+          { text: 'webpack和vite', link: '/study/webpack-vite' },
+          { text: 'Fetch', link: '/study/fetch' },
+          { text: 'Axios', link: '/study/axios' },
+          { text: '版本号区别', link: '/study/versions' },
+          { text: 'Vue3', link: '/study/vue3' },
+          { text: 'webpack', link: '/study/webpack' },
+          { text: '性能优化', link: '/study/optimization' },
+          { text: '强缓存、协商缓存', link: '/study/cache' },
+          { text: 'webpack GZip压缩', link: '/study/gzip' },
+          { text: '为什么使用Taro', link: '/study/taro' },
+          { text: 'uniapp和Taro的区别', link: '/study/uniapp-taro' },
+          { text: 'Get和Post请求区别', link: '/study/get-post' },
+          { text: 'Tcp和Udp的区别', link: '/study/tcp-udp' },
+          { text: 'websocket和http', link: '/study/webpack-http' },
+          { text: '面试难题', link: '/study/interview-difficulty' },
+          { text: '面试题总结', link: '/study/interview-total' },
+          { text: '状态码', link: '/study/code' }
         ]
       },
       {
@@ -152,14 +152,14 @@ export default {
         text: '常规封装代码实现',
         collapsed: false,
         items: [
-          { text: 'classnames实现', link: '/interview/classnames' },
-          { text: 'WeakMap实现深拷贝', link: '/interview/deepMapClone' },
-          { text: 'eventBus', link: '/interview/eventBus' },
-          { text: '自定义useVModel', link: '/interview/useVModel' },
-          { text: 'async/await', link: '/interview/async' },
-          { text: '函数柯里化', link: '/interview/curry' },
-          { text: '树结构转换', link: '/interview/toTree' },
-          { text: '寻找特定树结构节点', link: '/interview/findTree' }
+          { text: 'classnames实现', link: '/algorithm/classnames' },
+          { text: 'WeakMap实现深拷贝', link: '/algorithm/deepMapClone' },
+          { text: 'eventBus', link: '/algorithm/eventBus' },
+          { text: '自定义useVModel', link: '/algorithm/useVModel' },
+          { text: 'async/await', link: '/algorithm/async' },
+          { text: '函数柯里化', link: '/algorithm/curry' },
+          { text: '树结构转换', link: '/algorithm/toTree' },
+          { text: '寻找特定树结构节点', link: '/algorithm/findTree' }
         ]
       }
     ]
