@@ -19,13 +19,15 @@ export default {
         collapsed: false,
         items: [
           { text: 'nestjs实践', link: '/study/nestjs/practise' },
+          { text: 'nestjs鉴权', link: '/study/nestjs/guard' },
           { text: '性能指标', link: '/study/performance' },
           // { text: '面试问题记录', link: '/study/interview2024' },
-          { text: 'process.nextTick', link: '/study/process.nextTick' },
           { text: '微前端', link: '/study/MicroFrontends' },
           { text: 'babel', link: '/study/babel' },
           { text: '网络', link: '/study/network' },
-          { text: '图片相关', link: '/study/picture' }
+          { text: '图片相关', link: '/study/picture' },
+          { text: 'node', link: '/study/node' },
+          { text: '2024.8.5', link: '/study/zhuanzhuan' }
         ]
       },
       {
