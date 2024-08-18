@@ -27,7 +27,12 @@ export default {
           { text: '网络', link: '/study/network' },
           { text: '图片相关', link: '/study/picture' },
           { text: 'node', link: '/study/node' },
-          { text: '2024.8.5', link: '/study/zhuanzhuan' }
+          { text: '2024.8.5', link: '/study/zhuanzhuan' },
+          { text: '2024.8.6', link: '/study/2024.8.6' },
+          { text: 'Taro2 To Taro3', link: '/study/Taro2ToTaro3' },
+          { text: '断点续传', link: '/study/skipAndContinue' },
+          { text: '埋点监控', link: '/study/maiDian' },
+          { text: 'volta', link: '/study/volta' }
         ]
       },
       {
@@ -161,7 +166,9 @@ export default {
           { text: 'async/await', link: '/algorithm/async' },
           { text: '函数柯里化', link: '/algorithm/curry' },
           { text: '树结构转换', link: '/algorithm/toTree' },
-          { text: '寻找特定树结构节点', link: '/algorithm/findTree' }
+          { text: '寻找特定树结构节点', link: '/algorithm/findTree' },
+          { text: 'promiseA+', link: '/algorithm/promiseA+' },
+          { text: 'jsonp', link: '/algorithm/jsonp' }
         ]
       }
     ]
