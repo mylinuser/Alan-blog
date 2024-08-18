@@ -19,5 +19,8 @@
   "dependencies": {
     "terser": "^5.16.8",
     "vue": "^3.2.47"
+  },
+  "volta": {
+    "node": "18.18.0"
   }
 }
