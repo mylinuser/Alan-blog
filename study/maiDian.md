@@ -163,3 +163,11 @@ const callback = entries => {
 ```html
 <div v-point="pointData.id" :point-data="JSON.stringify(pointData)"></div>
 ```
+
+
+## 数据怎么去重
+
+从`error`里面的`message`和`stack`组成`key`，根据这个`key`去重
+
+## 数据格式
+

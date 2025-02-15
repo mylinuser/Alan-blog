@@ -7,7 +7,7 @@ export default {
   lastUpdatedText: '最近更新时间',
   nav: [
     { text: '首页', link: '/' },
-    { text: '学习', link: '/study/nestjs/practise' },
+    { text: '学习', link: '/study/nextTick' },
     { text: '实践', link: '/practice/element-upload' },
     { text: '工程化', link: '/deploy/jenkins1' },
     { text: '代码实现', link: '/algorithm/arr2-to-arr1' }
@@ -15,17 +15,46 @@ export default {
   sidebar: {
     '/study/': [
       {
-        text: '2024',
+        text: '2025',
         collapsed: false,
+        items: [
+          { text: 'nextTick', link: '/study/nextTick' },
+          { text: '微前端', link: '/study/MicroFrontends' },
+          { text: 'babel', link: '/study/babel' },
+          { text: '网络', link: '/study/network' },
+          { text: '图片相关', link: '/study/picture' },
+          { text: 'cookie问题', link: '/study/cookie' },
+          { text: 'csrf攻击xss攻击', link: '/study/csrf_xss' },
+          { text: '常见加密算法', link: '/study/encryption' },
+          { text: 'npm自带的钩子', link: '/study/npm_hook' },
+          {
+            text: 'vue2升级vue3工具遇到的问题',
+            link: '/study/vue_update'
+          },
+          { text: 'CSS属性触发GPU加速', link: '/study/GPU' },
+          { text: '刘海屏css适配问题', link: '/study/screen_header' },
+          {
+            text: 'Service Worker生命周期',
+            link: '/study/service_worker'
+          },
+          { text: 'rrweb', link: '/study/rrweb' },
+          { text: '函数式弹窗', link: '/study/function_modal' },
+          { text: 'cdn转本地', link: '/study/cdn_to_local' },
+          {
+            text: 'git rebase和git merge',
+            link: '/study/git_rebase_merge'
+          },
+          { text: '虚拟列表', link: '/study/virtualTree' }
+        ]
+      },
+      {
+        text: '2024',
+        collapsed: true,
         items: [
           { text: 'nestjs实践', link: '/study/nestjs/practise' },
           { text: 'nestjs鉴权', link: '/study/nestjs/guard' },
           { text: '性能指标', link: '/study/performance' },
           // { text: '面试问题记录', link: '/study/interview2024' },
-          { text: '微前端', link: '/study/MicroFrontends' },
-          { text: 'babel', link: '/study/babel' },
-          { text: '网络', link: '/study/network' },
-          { text: '图片相关', link: '/study/picture' },
           { text: 'node', link: '/study/node' },
           { text: '2024.8.5', link: '/study/zhuanzhuan' },
           { text: '2024.8.6', link: '/study/2024.8.6' },
@@ -39,7 +68,6 @@ export default {
         text: '2023',
         collapsed: true,
         items: [
-          { text: '虚拟列表', link: '/study/virtualTree' },
           { text: '遇到的难题', link: '/study/2021-difficulty' },
           { text: '一些题目', link: '/study/some-topic' },
           { text: 'webpack和vite', link: '/study/webpack-vite' },
